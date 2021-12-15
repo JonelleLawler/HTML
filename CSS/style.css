@@ -1,0 +1,151 @@
+body {
+    background-color: wheat;
+    color: black;
+}
+
+
+ul li{
+    display: inline;
+}
+
+#header
+{
+    position:absolute;
+    width:100%;
+    z-index: 1;
+}
+
+#bg
+{
+position:absolute;
+background-image: url("https://i.pinimg.com/originals/ef/cb/e7/efcbe71e2a0258f9a98dc5556e2ecad8.jpg");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  margin-top: 0%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#navbar
+{
+    position: relative;
+    justify-content: left;
+    margin-top: 0%;
+    margin-left: 70%;
+    font-size: 20px;
+    z-index: 2;
+    
+}
+
+a:link 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* Container holding the image and the text */
+#text {
+    position: relative;
+    justify-content: center;
+    margin-top:150px;
+    margin-left: 7%;
+    margin-right: 10%;
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    margin-top: 10%;
+    z-index: 2;
+}
+  
+
+#text_two
+{
+    position: relative;
+    justify-content: center;
+    margin-top:150px;
+    margin-left: 7%;
+    margin-right: 10%;
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+#bg2
+{
+    position:absolute;
+    background-image: url("https://i.pinimg.com/originals/ef/cb/e7/efcbe71e2a0258f9a98dc5556e2ecad8.jpg");
+      /* Full height */
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+      margin-top: -24%;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+#footer
+{
+    position: absolute;
+    width: 100%;
+    margin-top: 410px;
+}
+
+#container
+{
+    position:relative;
+    margin-top: 0%;
+    margin-left: 50%;
+}
+
+#side_box
+{
+    position: relative;
+    z-index: 2;
+    margin-top: 10%; 
+    margin-left: -10%;
+}
+
+#AD
+{
+    position: relative;
+    z-index: 2;
+    margin-top: 40%;
+    margin-left: -10%;
+}
+#page_two
+{
+    position: relative;
+    justify-content: center;
+    margin-top:150px;
+    margin-left: 7%;
+    margin-right: 10%;
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+#Video 
+{
+    position: relative;
+    margin-left: 35%;
+    align-self: center;
+}
